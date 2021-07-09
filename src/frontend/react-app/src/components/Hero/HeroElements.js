@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ImgBg from '../../images/sprouts.jpeg'
+import ImgBg from '../../images/redReddish.jpg'
 
 export const HeroContainer = styled.div`
     background: linear-gradient(to right, rgba(0,0,0,0.7),
@@ -40,11 +40,12 @@ export const HeroH1 = styled.h1`
     font-size: clamp(2.5rem, 10vw, 5rem);
     margin-bottom: 1rem;
     margin-left: 2rem;
+    cursor: pointer;
     letter-spacing: 3px
 `
 
 export const HeroHr = styled.hr`
-    width: 500px;
+    width: 590px;
     margin-left: 2rem;
     margin-bottom: 1rem;
     border: 3px solid #fff;
@@ -52,8 +53,9 @@ export const HeroHr = styled.hr`
 
 export const HeroP = styled.p`
     font-size: clamp(2rem, 2.5vw, 3rem);
+    cursor: pointer;
     margin-botton: 2rem;
-    margin-left: 3.5rem;
+    margin-left: 2.9rem;
 `
     
 export const HeroBtn = styled.button`
@@ -67,9 +69,9 @@ export const HeroBtn = styled.button`
     transition: 0.2s ease-out;
 
     &:hover {
-        background: #ffc500;
+        background: #bd9bb5;
         transition: 0.2s ease-out;
         curson: pointer;
-        color: #000;
+        color: #fff;
     }
 `
